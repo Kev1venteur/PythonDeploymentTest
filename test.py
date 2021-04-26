@@ -16,5 +16,5 @@ class handler(BaseHTTPRequestHandler):
         message = "Hello, World! Here is a POST response"
         self.wfile.write(bytes(message, "utf8"))
 
-with HTTPServer(('', 8080), handler) as server:
+with HTTPServer(('', 8000), handler) as server:
     server.serve_forever()
