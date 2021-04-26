@@ -1,2 +1,2 @@
 # PythonDeploymentTest
-Small Java app repo to test continuous deployment.
+Small Python app repo to test continuous deployment.
